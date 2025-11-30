@@ -13,7 +13,7 @@ const App = () => {
         <Component1  setSelectedOption={setSelectedOption}/>
         <Component2 setSelectedOption={setSelectedOption}/>
         <div>
-           <h1>{selectedOption}</h1>
+           <h1>Selected Option :{selectedOption}</h1>
         </div>
     </div>
 

@@ -3,7 +3,7 @@ import React from 'react';
 return (
 <div className='childcomponent1'>
     <h1>Child Component 2</h1>
-    <button onClick={()=>setSelectedOption("Component 2 Clicked")}>option2</button>
+    <button onClick={()=>setSelectedOption("Option 2")}>option2</button>
 </div>
 
 )
