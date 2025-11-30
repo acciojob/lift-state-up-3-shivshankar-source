@@ -9,11 +9,12 @@ const App = () => {
   const [selectedOption, setSelectedOption] = useState(null);
   return (
     <div className="parent">
+      <h1>Parent Component</h1>
         {/* Do not remove the main div */}
         <Component1  setSelectedOption={setSelectedOption}/>
         <Component2 setSelectedOption={setSelectedOption}/>
         <div>
-           <h1>Selected Option :{selectedOption}</h1>
+           <p>Selected Option :{selectedOption}</p>
         </div>
     </div>
 
